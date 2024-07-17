@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div style="height:auto;min-height:300px;" class="jumbotron">
+          <div class="col-md-4"> 
+          </div>
+          <div class="col-md-6 form-content">
+            <form accept-charset="utf-8" method="post" id="UserLoginForm" class="form-signin" action="">    	
+              <h1 class="form-signin-heading text-muted">Đăng nhập </h1>
+              
+              <button onchange="validateEmail()"></button><input type="text" id="username" autofocus="autofocus" placeholder="email" class="form-control" name="Email" ><br>
+              
+              <button onchange="validatePassword()"></button><br><input type="password" id="password" placeholder="Password" class="form-control" name="mật khẩu">
+              <p>Mật khẩu có ít nhất 8 ký tự, phải có ít nhất 1 ký tự chữ thường, chữ hoa, số và ký tự đặc biệt</p>
+                <button onclick="exercise4()">Đăng nhập</button>
+              </button>
+            </form>    
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">     
+        <div class="container bootstrap snippets bootdey">     
+          <footer class="footer">
+            <p>&copy; Thanh tuan and hong phuong</p>
+          </footer>
+        </div>
+      </div>
+<script src="main.js"></script>
+</body>
+</html>
